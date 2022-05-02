@@ -45,6 +45,11 @@ a {
     text-decoration: none;
 }
 
+*:focus {
+    outline: 2px dashed var(--primary);
+    outline-offset: 3px;
+}
+
 /* CONTAINER  */
 
 .container {
