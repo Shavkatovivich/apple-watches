@@ -1,3 +1,10 @@
+/* CUSTOM PROPERTY  */
+:root {
+    --primary: #EA625C;
+    --text-color: #222;
+}
+
+
 /* GLOBL STYLES  */
 
 html {
@@ -18,11 +25,11 @@ body {
     height: 100%;
     padding: 0;
     margin: 0;
-    font-family: "Arial", sans-serif;
+    font-family: "Roboto" "Arial", sans-serif;
     font-size: 16px;
     line-height: 1.5;
     background-color: #fff;
-    color: #222;
+    color: var(--text-color);
 }
 
 img {
